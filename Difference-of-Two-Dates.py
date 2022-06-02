@@ -1,5 +1,5 @@
 year = int(input("Insert year: "))
-month = int(input("Insert month (number only): "))
+month = int(input("Insert month (numbers only): "))
 d1 = int(input("Insert Date 1: "))
 d2 = int(input("Insert Date 2: "))
 
