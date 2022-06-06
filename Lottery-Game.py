@@ -1,18 +1,18 @@
 import random
 
 # Generate a lottery number
-lottery = random.randint(100, 999)
+lottery = random.randint(10, 99)
 
 # Prompt the user to enter a guess
 guess = eval(input("Enter your lottery pick (three digits): "))
 
 # Get digits from lottery
-lotteryDigit1 = lottery // 100
-lotteryDigit2 = lottery % 100
+lotteryDigit1 = lottery // 10
+lotteryDigit2 = lottery % 10
 
 # Get digits from guess
-guessDigit1 = guess // 100
-guessDigit2 = guess % 100
+guessDigit1 = guess // 10
+guessDigit2 = guess % 10
 
 print("The lottery number is", lottery)
 
